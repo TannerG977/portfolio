@@ -1,0 +1,64 @@
+/* Universal Fonts */
+
+h1 {
+    font-family: 'Bentham', serif;
+}
+
+h2 {
+    font-family: 'Bentham', serif;
+}
+
+:root  {
+    --bs-primary: #F9A91F;
+    --bs-primary-rgb: 249, 169, 31;
+    --bs-secondary: #1A1A1D;
+    --bs-secondary-rgb: 26, 26, 29;
+    --bs-info: #707070;
+    --bs-info-rgb: 112, 112, 112;
+  }
+
+  
+
+
+/* Mobile Styles */
+
+
+@media (max-width: 576px) {
+    
+    /*Header*/
+    .background {
+        background-image: url(/images/pexels-tirachard-kumtanom-450055.jpg);
+        background-size: cover;
+        z-index: 1;
+    }
+
+    h2 {
+        z-index: 5;
+    }
+
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .upcoming {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .upcoming div:nth-child(2) {
+        order: -1;
+    }
+
+    .squid {
+        text-align: center;
+    }
+
+    .wireframe {
+        text-align: center;
+    }
+
+    .code {
+        text-align: center;
+    }
+}
