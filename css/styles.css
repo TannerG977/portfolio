@@ -8,16 +8,24 @@ h2 {
     font-family: 'Bentham', serif;
 }
 
+/*Universal Styles*/
+
 :root  {
     --bs-primary: #F9A91F;
     --bs-primary-rgb: 249, 169, 31;
     --bs-secondary: #1A1A1D;
     --bs-secondary-rgb: 26, 26, 29;
     --bs-info: #707070;
-    --bs-info-rgb: 112, 112, 112;
+    --bs-info-rgb: 112, 112, 112; 
   }
 
-  
+button {
+    border-color: #F9A91F;
+}
+
+a {
+    text-decoration: none;
+}
 
 
 /* Mobile Styles */
@@ -32,13 +40,17 @@ h2 {
         z-index: 1;
     }
 
-    h2 {
-        z-index: 5;
+    .desktopnav {
+        visibility: hidden;
     }
 
-    .logo {
-        width: 75px;
-        height: 75px;
+    .tabletnav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    h2 {
+        z-index: 5;
     }
 
     .upcoming {
@@ -61,4 +73,87 @@ h2 {
     .code {
         text-align: center;
     }
+
+    .contactbottom {
+        visibility: hidden;
+    }
+
+    .tablet {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+
+    .desktopnav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .mobilenav {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .background {
+        background-image: url(/images/pexels-tirachard-kumtanom-450055.jpg);
+        background-size: cover;
+        z-index: 1;
+    }
+
+    h1 {
+        text-align: center;
+        background-image: url(/images/pexels-adrien-olichon-2931286.jpg);
+        padding-bottom: 65px;
+        background-size: cover;
+    }
+
+    .logo {
+        position: absolute;
+    }
+
+    .searchbtn {
+        border-color: #F9A91F;
+    }
+
+    .dropdown-menu {
+        right: 0;
+        left: auto;
+        width: 300px;
+    }
+
+    .upcoming {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .welcome {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .about {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .contactbottom {
+        visibility: hidden;
+    }
+
+    .send-message {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .squid {
+        width: 100px;
+    }
+
+    .wireframe {
+        width: 100px;
+    }
+    
+
+
 }
