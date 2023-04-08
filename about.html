@@ -20,18 +20,24 @@
 
     <!--Desktop nav-->
     <div class="desktopnav">
-      <nav class="navbar">
-        <button>
-          <a href="home.html">Home</a>
-        </button>
-        <button>
-          <a href="about.html">About</a>
-        </button>
-        <button>
-          <a href="contact.html">Contact</a>
-        </button>
+      <nav class="navbar ms-5 me-5">
+        <div class="col">
+          <button class="bg-secondary mt-2 mb-2 pt-2 pb-2 ps-4 pe-4">
+            <a class="text-primary" href="home.html">Home</a>
+          </button>
+        </div>
+        <div class="col">
+          <button class="bg-secondary mt-2 mb-2 pt-2 pb-2 ps-4 pe-4">
+            <a class="text-primary" href="about.html">About</a>
+          </button>
+        </div>
+        <div class="col">
+          <button class="bg-secondary mt-2 mb-2 pt-2 pb-2 ps-4 pe-4">
+            <a class="text-primary" href="contact.html">Contact</a>
+          </button>
+        </div>
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="searchbtn btn-secondary bg-secondary mt-2 mb-2 pt-2 pb-2 ps-4 pe-4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               &#x1F50D;&#xFE0E;
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -103,14 +109,14 @@
     </div>
   </header>
   <body class="background">
-    <div class="about bg-secondary border border-5 mt-5 mb-5">
+    <div class="about container bg-secondary border border-5 mt-5 mb-5">
       <h2 class="text-primary p-2">About Me</h2>
       <picture>
         <img class="p-2 float-start" src="images/professional picture.png" alt="Tanner Green" width="200px">
       </picture>
       <p class="text-primary p-2">Hi, my name is Tanner Green, I am a 21 year old male who currently attends Algonquin College in the Interactive Media Design program. I am striving to one day be a front end or back end web developer, and excel in coding. In my free time I like to play guitar, compose music, play video games, and listen to albums. I hope that everyone who visits my site can find something they like.</p>
       <br>
-      <h2 class="text-primary p-2">Vision</h2>
+      <h2 class="pt-lg-5 text-primary p-2">Vision</h2>
       <p class="text-primary p-2">This site is meant to be a portfolio of the work I do throughout my professional and un-professional career. I one day hope to be a full on web developer, and hopefully this site will display my ambitions and work I am proud of.</p>
       <br>
       <h2 class="text-primary p-2">Background</h2>
@@ -127,8 +133,8 @@
   <footer class="bg-secondary">
     <div class="search p-5">
         <form role="form">
-            <input class="searchbar" type="text" placeholder="Search">
-            <button class="searchbutton bg-secondary">&#x1F50D;&#xFE0E;</button>   
+            <input class="searchbar mt-2 mb-2 pt-2 pb-2 ps-4 pe-4" type="text" placeholder="Search">
+            <button class="searchbutton bg-secondary mt-2 mb-2 pt-2 pb-2 ps-4 pe-4">&#x1F50D;&#xFE0E;</button>   
         </form>
     </div>
   </footer>
