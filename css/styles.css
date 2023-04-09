@@ -23,8 +23,14 @@ button {
     border-color: #F9A91F;
 }
 
+.bordercolor {
+    border-color: #F9A91F;
+}
+
 a {
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .search {
