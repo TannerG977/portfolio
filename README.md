@@ -5,3 +5,5 @@ For my process making this site I started by designing mobile first and figuring
 One of the biggest challenges I faced during this project was managing time and figuring out a good order to finish elements of the site in. This lead to me having to go back and change a lot of div's and classes in order to get everything to work properly. I eventually overcame these challenges and now have a better idea on how to budget my time with a project this size.
 ## What I Learned 
 Over the time period I worked on this porject I learned a lot. I think I learned most about how bootstrap actually helps with laying out a site, and the many different features it has. For example it allows you to add javascript functions to your site with ease and really enhance how responsive your site is to different screen sizes. 
+## Stock Photos
+All photos are my own except for the background images in the body and the header with "pexels" at the start of the title. These are copyright free images aquired from pexels.com
