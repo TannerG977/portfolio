@@ -33,8 +33,40 @@ a {
     font-size: 20px;
 }
 
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .search {
     text-align: center;
+}
+
+.logo {
+    z-index: 0;
+}
+
+/*skip-links*/
+
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 3;
+  }
+
+.skip-links a{
+    position: absolute;
+    text-align: center;
+    top: -3em;
+    color:blue;
+    padding: .5em 1em;
+    font-weight: bold;
+}
+
+.skip-links a:focus{
+    top: 0;
 }
 
 
